@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: 600;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .navbar {
@@ -374,7 +374,6 @@ input:hover {
     transform: translate(-50%, -50%);
 }
 
-/* Hover par underline */
 .language-option:hover .language-text {
     text-decoration: underline;
 }
@@ -994,4 +993,235 @@ li {
     justify-self: center;
     width: 100px;
     height: auto;
+}
+
+.devide{
+    border: none;
+    border-top: 1px solid rgb(184, 183, 183);
+    margin-top: 200px;   
+}
+
+footer .bth{
+    background-color: #37475A;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .mainfooter{
+    background-color: #232F3E;
+    width: 100%;
+    height: 480px;
+}
+
+.mainfooter .largf {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 130px;
+}
+
+.largf .first{
+    margin: 50px 0px 50px 0px;
+    width: 123px;
+    height: auto;
+}
+
+.largf .first:nth-child(3), .first:nth-child(4){
+    width: 188px;
+}
+
+.mainfooter .largf h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.mainfooter .largf ul li {
+    list-style: none;
+    text-align: left;
+    color: rgb(207, 205, 205);
+    font-weight: 100;
+    padding: 5px 0;
+}
+
+.largf ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mainfooter .joint{
+    border: none;
+    border-top: 1px solid #3a4553;
+}
+
+.mainfooter .exam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer .mainfooter img{
+    background-position: -10px -90px;
+    width: 76px;
+    height: 27px;
+}
+
+.mainfooter img:hover{
+    cursor: pointer;
+}
+
+.exam button{
+    background: transparent;
+    width: 132px;
+    height: 34px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: rgb(207, 205, 205);
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.exam .globe{
+    width: 13px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.eng {
+    position: relative;
+    width: 132px;
+    height: 34px;
+
+    background: transparent;
+    color: white;
+
+    border: 1px solid #777;
+    border-radius: 3px;
+
+    text-align: left;
+    padding-left: 15px;
+}
+
+.arrows {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+
+    width: 0;
+    height: 0;
+
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+
+    border-bottom: 5px solid #aaa;
+}
+
+.arrows::after {
+    content: "";
+
+    position: absolute;
+
+    top: 7px;
+    left: -4px;
+
+    width: 0;
+    height: 0;
+
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+
+    border-top: 5px solid #aaa;
+}
+
+.exam button:last-child{
+    margin-left: 5px;
+    width: 100px;
+}
+
+.exam button:last-child img{
+    width: 20px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.exam button:last-child span{
+    margin-left: -23px;
+}
+
+footer .btf{
+    background-color: #131A22;
+    width: 100%;
+    height: 250px;
+}
+
+.btf .F-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: -70px 0px 0px -266px;
+    column-gap: 60px;
+    row-gap: 20px;
+}
+
+.btf .F-grid h5{
+    color: rgb(223, 222, 222);
+}
+
+.btf .F-grid li{
+    list-style: none;
+    float: left;
+    font-size: 11px;
+    font-weight: 100;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.btf .F-grid .secondf{
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btf .F-grid .secondf:nth-child(2){
+    width: 130px;
+    height: auto;
+}
+
+.btf .F-grid  .secondf:nth-child(3), .secondf:nth-child(4){
+    width: 70px;
+    height: auto;
+}
+
+.btf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.btf .lowerf{
+     position: absolute;
+    bottom: 30px;
+    width: 318px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(233, 233, 233);
+
+    font-weight: 100;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    line-height: 20px;
 }
