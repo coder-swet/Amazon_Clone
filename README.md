@@ -7,7 +7,7 @@ built using HTML5 and CSS3.
 [View Live Demo](YOUR-LIVE-DEMO-LINK)
 
 ## 📂 GitHub
-This repository contains the complete source code.
+My first frontend web development project built using HTML5 and CSS3.
 
 ## 🛠️ Technologies
 - HTML5
